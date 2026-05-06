@@ -9,7 +9,7 @@ DO_NOT_STORE_DOMAIN_RULES_HERE:
 
 ROUTE:
 - place/region/city/state/local/name => REGION_INDEX.md
-- current/weather/time/map/open/tax/rent/safety => DYNAMIC_INDEX.md
+- current/weather/time/map/open/tax/rent/safety/news/finance/stock/market/SEC/FRED/AI trend/latest repo/latest paper => DYNAMIC_INDEX.md
 - chengyu/proverb/谚语/成语/俗语 => ZH_LITERATURE_INDEX.md
 - idiom/slang/proverb/俚语 => EN_LITERATURE_INDEX.md
 - abbreviation/casing/HK/HOU/NY/NYC => EN_ABBR_INDEX.md
