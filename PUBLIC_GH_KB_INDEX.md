@@ -19,6 +19,9 @@ APPROVED_SOURCE_INDEX:
 - country-regions/country-region-data => https://github.com/country-regions/country-region-data => USE_FOR: country/region short codes for address-like data => SOURCE_STATE: public_dataset => IMPORT_MODE: source_link_or_filtered_extract
 - lyonzin/knowledge-rag => https://github.com/lyonzin/knowledge-rag => USE_FOR: markdown-aware chunking and local RAG architecture reference => SOURCE_STATE: architecture_reference => IMPORT_MODE: do_not_import_content
 - dotenvx/llmstxt => https://github.com/dotenvx/llmstxt => USE_FOR: llms.txt generation pattern and source list architecture => SOURCE_STATE: architecture_reference => IMPORT_MODE: do_not_import_content
+- anuradha1992/Motivational-Interviewing-Dataset => https://github.com/anuradha1992/Motivational-Interviewing-Dataset => USE_FOR: motivational interviewing listener labels and reflection research => SOURCE_STATE: research_dataset_cc_by_nc_sa => IMPORT_MODE: source_index_only
+- IzzetYoung/CAMI => https://github.com/IzzetYoung/CAMI => USE_FOR: motivational interviewing counselor agent strategy architecture => SOURCE_STATE: research_code_reference => IMPORT_MODE: source_index_only
+- Sahandfer/EMPaper => https://github.com/Sahandfer/EMPaper => USE_FOR: empathy and emotional support dialogue paper index => SOURCE_STATE: bibliography_index => IMPORT_MODE: source_index_only
 
 NOT_DIRECT_IMPORT:
 - large country/city datasets
