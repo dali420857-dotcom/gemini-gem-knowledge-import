@@ -6,6 +6,7 @@ SOURCE_NOTE: domain router for Gemini Gem Knowledge; keep short and route only
 ROUTES:
 - TRIGGER: region/place/city/state/local/HK/HOU/NY/NYC => READ: REGION_INDEX.md => USE_FOR: region codes and local static facts => SOURCE_STATE: mixed_index
 - TRIGGER: current/weather/time/map/open/traffic/tax/rent/safety/construction => READ: DYNAMIC_INDEX.md => USE_FOR: live-check gate => SOURCE_STATE: dynamic_check_required
+- TRIGGER: news/current affairs/finance/investment/stock/market/SEC/FRED/AI trend/latest repo/latest paper => READ: DYNAMIC_INDEX.md => USE_FOR: live news, finance, stock, and AI source gate => SOURCE_STATE: dynamic_check_required
 - TRIGGER: chengyu/proverb/谚语/成语/俗语 => READ: ZH_LITERATURE_INDEX.md => USE_FOR: Chinese literary expression => SOURCE_STATE: rule_only
 - TRIGGER: idiom/slang/proverb/俚语 => READ: EN_LITERATURE_INDEX.md => USE_FOR: English expression => SOURCE_STATE: rule_only
 - TRIGGER: abbreviation/casing/lowercase/uppercase/HK/HOU/NY/NYC => READ: EN_ABBR_INDEX.md => USE_FOR: abbreviation and casing final scan => SOURCE_STATE: rule_only

@@ -22,6 +22,11 @@ APPROVED_SOURCE_INDEX:
 - anuradha1992/Motivational-Interviewing-Dataset => https://github.com/anuradha1992/Motivational-Interviewing-Dataset => USE_FOR: motivational interviewing listener labels and reflection research => SOURCE_STATE: research_dataset_cc_by_nc_sa => IMPORT_MODE: source_index_only
 - IzzetYoung/CAMI => https://github.com/IzzetYoung/CAMI => USE_FOR: motivational interviewing counselor agent strategy architecture => SOURCE_STATE: research_code_reference => IMPORT_MODE: source_index_only
 - Sahandfer/EMPaper => https://github.com/Sahandfer/EMPaper => USE_FOR: empathy and emotional support dialogue paper index => SOURCE_STATE: bibliography_index => IMPORT_MODE: source_index_only
+- OpenBB-finance/OpenBB => https://github.com/OpenBB-finance/OpenBB => USE_FOR: finance data source map and AI-agent finance reference => SOURCE_STATE: source_index_dynamic => IMPORT_MODE: source_link_only
+- DIYgod/RSSHub => https://github.com/DIYgod/RSSHub => USE_FOR: news/finance/AI RSS route discovery => SOURCE_STATE: source_index_dynamic => IMPORT_MODE: source_link_only
+- public-apis/public-apis => https://github.com/public-apis/public-apis => USE_FOR: API discovery across news/finance/AI categories => SOURCE_STATE: source_index_dynamic => IMPORT_MODE: source_link_only
+- AI4Finance-Foundation/FinGPT => https://github.com/AI4Finance-Foundation/FinGPT => USE_FOR: financial LLM architecture reference => SOURCE_STATE: source_index_dynamic => IMPORT_MODE: source_link_only
+- dair-ai/ML-Papers-of-the-Week => https://github.com/dair-ai/AI-Papers-of-the-Week => USE_FOR: weekly AI paper trend source => SOURCE_STATE: source_index_dynamic => IMPORT_MODE: source_link_only
 
 NOT_DIRECT_IMPORT:
 - large country/city datasets

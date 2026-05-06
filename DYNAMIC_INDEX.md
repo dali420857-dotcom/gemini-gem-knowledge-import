@@ -8,6 +8,7 @@ ROUTES:
 - TRIGGER: weather/wind/rain/storm/temperature/forecast/air quality => READ: DYNAMIC_WEATHER.md => USE_FOR: weather gate => SOURCE_STATE: dynamic_check_required
 - TRIGGER: map/route/traffic/open/hours/nearby/place exists => READ: DYNAMIC_MAPS.md => USE_FOR: map gate => SOURCE_STATE: dynamic_check_required
 - TRIGGER: tax/rent/price/safety/construction/medical/current local cost => READ: DYNAMIC_MARKET_LOCAL.md => USE_FOR: local market gate => SOURCE_STATE: dynamic_check_required
+- TRIGGER: news/current affairs/finance/investment/stock/market/SEC/FRED/AI trend/latest repo/latest paper => READ: DYNAMIC_NEWS_FINANCE_AI_SOURCES.md => USE_FOR: source selection for live news, finance, stock, and AI checks => SOURCE_STATE: dynamic_check_required
 
 FINAL_SCAN:
 - dynamic facts require live source or cautious wording
